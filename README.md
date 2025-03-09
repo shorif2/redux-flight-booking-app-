@@ -1,35 +1,9 @@
-# Code in React 19
+# Booking Management System (Redux Middleware)
 
-As React 19 is new, this scaffolding project is for everyone who wants to start coding in React 19.
+A simple **Booking Management System** built using **React** and **Redux** to manage flight bookings. This project demonstrates the use of custom middleware in Redux to handle actions, log state changes, and implement conditions based on future state.
 
-It has:
+## Features
 
-- Vite
-- React 19.0(Stable Version)
-- TailwindCSS 4.x
-
-## Create Your Own React 19 Project with Vite and TailwindCSS
-There are multiple ways you can utilize this repository to create your own project. The most straightforward way is by using the follwoing command from the command prompt/terminal:
-
-```bash
-npx degit atapas/code-in-react-19#main <YOUR_PROJECT_NAME>
-```
-
-This will clone the repository to your project. Alternatively, you can fork this repo or create a new repo from the template by clicking on the button at the top-right corner.
-
-## 🫶 Support
-Liked it? You can show your support with a STAR(⭐).
-
-> Many Thanks to all the `Stargazers` who have supported this project with stars(⭐)
-
-### Sponsor My Work
-
-> I am an independent educator and open-source enthusiast who creates meaningful projects to teach programming on my YouTube Channel. You can support my work by [sponsoring me on GitHub](https://github.com/sponsors/atapas).
-
-## Run it Locally
-
-- Clone or fork the repo
-- Install dependencies using `npm install` or `yarn install`
-- Run it using `npm run dev` or `yarn dev`
-
-The app will be available on `http://localhost:5173` by default.
+- **State Management**: Uses Redux to manage the global state of flight bookings.
+- **Custom Middleware**: Implements a custom Redux middleware to log state changes and handle conditions based on future state.
+- **Alerts for Booking Success/Failure**: Based on the state of bookings, the application displays success or failure alerts.
